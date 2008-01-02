@@ -9,6 +9,7 @@ Group:      Video
 BuildRequires: libgnomeui2-devel gnome-panel-devel
 BuildRequires: libxdamage-devel
 BuildRequires: perl-XML-Parser
+BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %description 
 Byzanz is a desktop recorder. Just like Istanbul. But it doesn't record to 
 Ogg Theora, but to GIF.
