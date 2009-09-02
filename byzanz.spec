@@ -18,7 +18,7 @@ Ogg Theora, but to GIF.
 %setup -q 
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
