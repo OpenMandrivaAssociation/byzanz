@@ -1,14 +1,18 @@
 Summary:    A gif desktop recorder 
 Name:       byzanz
-Version:    0.1.1
-Release:    %mkrel 6
+Version:    0.2.0
+Release:    %mkrel 1
 URL:        http://www.freedesktop.org/~company/
-License:    GPL
-Source0:    http://www.freedesktop.org/~company/%{name}/%{name}-%{version}.tar.bz2
+License:    LGPLv3+
+Source0:    http://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 Group:      Video
-BuildRequires: libgnomeui2-devel gnome-panel-devel
+BuildRequires: gnome-panel-devel
 BuildRequires: libxdamage-devel
-BuildRequires: perl-XML-Parser
+BuildRequires: cairo-devel >= 1.9.1
+BuildRequires: gtk+2-devel >= 2.17.10
+BuildRequires: libgstreamer-plugins-base-devel
+BuildRequires: libGConf2-devel
+BuildRequires: intltool
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %description 
 Byzanz is a desktop recorder. Just like Istanbul. But it doesn't record to 
