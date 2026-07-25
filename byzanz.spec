@@ -1,7 +1,7 @@
 Summary:    A gif desktop recorder 
 Name:       byzanz
 Version:    0.2.3
-Release:    %mkrel 2
+Release:    3
 URL:        https://www.freedesktop.org/~company/
 License:    LGPLv3+
 Source0:    http://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
